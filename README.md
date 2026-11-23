@@ -1,38 +1,22 @@
-# Prescad · Espai de compres industrials
+# Prescad · Traçabilitat i planificació de producció
 
 Demostració conceptual independent d'Automio. No és el sistema de Prescad ni un producte avalat per Prescad.
 
-## Obrir
+https://routinizewellness.github.io/automio-prescad-demo/?v=cbf3ca9
 
-https://routinizewellness.github.io/automio-prescad-demo/
+## Només dos mòduls
 
-També es pot obrir index.html sense instal·lació o connexió. El logo està incorporat. Sense servidor, comptes, dependències externes ni analítica. noindex,nofollow no la converteix en privada.
+- Traçabilitat per projecte: filtre de projecte, compra, material, referència documental, control pendent i operació vinculada.
+- Planificació de producció: dia i recurs editables, càrrega/capacitat de mostra, dependències bàsiques i controls de projecte. Inclou preparació de la reunió setmanal i vista del pla per al taller.
 
-## Explorar
+Dades sintètiques: tres projectes, vuit línies vinculades i sis operacions. No atribueix clients, proveïdors, comandes, volums, capacitats ni problemes reals a Prescad. Els controls només canvien un estat fictici de la pestanya.
 
-- Resum amb comptadors només de la mostra.
-- Safata de compres: vuit casos, cerca, filtres i esborrany editable.
-- Comandes: vuit fitxes de mostra vinculades al cas i material.
-- Proveïdors: sis perfils ficticis per especialitat i casos relacionats.
-- Centre documental: visors de fitxes textuals sense validesa operativa.
-- Preparació de fabricació: taula de controls i vista per fase.
-- Registre de decisions temporal.
-- Context, fonts i límits de les connexions.
+## Límits
 
-Flux per cas: revisió d'origen, aprovació confirmada de l'esborrany, resposta fictícia predefinida, llista de validació, tancament o retorn per aclarir. La derivació interna no notifica ningú. Els controls de tancament no comproven cap dada industrial.
+Sense connexió a Odoo, servidor, usuaris, enviaments, analítica o dades desades. Planificació manual per dies, no per minuts ni optimització automàtica. Resoldre un control de mostra no valida material real ni allibera fabricació. La versió i els mòduls Odoo s'han de comprovar abans de definir la implantació.
 
-## Casos ficticis
+El fitxer index.html també funciona sense connexió. noindex,nofollow no el converteix en privat.
 
-Certificat i colada de brides; termini de malla; revisió de plànol; recepció parcial de tubs i accessoris; junta alternativa; informe d'acabat; embalatge i recollida; identificació de lot discrepant.
+Context industrial públic: https://prescad.com/es/blog/como-fabricamos-nuestros-filtros-industriales-planificacion-de-la-produccion/
 
-Tots els proveïdors, materials, comandes, documents, projectes i correus són exemples ficticis. Les especialitats serveixen per contextualitzar el flux industrial, no per atribuir compres, proveïdors o problemes reals a Prescad. No s'executa IA. No s'envia res. No hi ha correu o ERP connectats, cap acceptació de material, alliberament de fabricació, transport o pagament. Les dades es perden en recarregar o reiniciar.
-
-## Fonts de context
-
-- https://prescad.com/es/blog/como-fabricamos-nuestros-filtros-industriales-planificacion-de-la-produccion/
-- https://prescad.com/es/sobre-nosotros/
-- https://www.odoo.com/es/customers/prescad-engineering-sl-20232441 (referència pública, sense mòduls, versió o ús actual confirmats)
-- https://sourceday.com/purchase-order-collaboration/ (patró de col·laboració, no eina confirmada de Prescad)
-- https://dribbble.com/shots/11182231-Purchase-Order-Table (referència visual inicial; disseny i codi propis)
-
-Marca i logotip Prescad propietat del titular, obtingut de la web oficial per contextualitzar la demo. No hi ha dades personals, notes comercials privades ni credencials.
+Marca i logotip Prescad propietat del titular, utilitzats per contextualitzar la demo. Sense notes comercials privades ni credencials.
